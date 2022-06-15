@@ -1,0 +1,87 @@
+.center{
+    border: 1px;
+    text-align: center;
+    background-color: #205493;
+    color: white;
+    height: 50px;
+    margin-bottom: 50px;
+}
+
+.center h1 {
+  position: relative;
+  top: 8%;
+  font-size: 1.8em;
+}
+
+.inputTask{
+    border: 10px;
+    text-align: center;   
+    padding-bottom: 50px;
+}
+
+.inputTask .inputText {
+  width: calc(70% - 135px);
+
+}
+
+.inputText{
+    height: 35px; 
+    width: calc(100% - 145px);
+    margin-right: 10px; 
+    border-left: none; 
+    border-right: none; 
+    border-top: none;
+    outline: none;
+    text-overflow: ellipsis;
+}
+
+
+.button {
+    background-color: #0071bc;
+    border:white;
+    border-style:double;
+    font-weight: 700;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+  }
+
+  .button:hover, .button:focus {
+    cursor: pointer;
+  }
+
+  .itemHeading{
+    border: 1px solid #243042;
+    padding: 5px;
+    line-height: 40px;
+    color: #243042;
+  }
+
+ .button.doneButton{  
+    float:right;
+  }
+
+  .itemContainer {
+    height: 400px;
+  }
+
+  .itemContainer td {
+    vertical-align: top;
+  }
+
+  .iconButton{
+    float:right;
+    background-color: #0071bc;
+    border:white;
+    border-style:double;
+    font-weight: 700;
+    color: white;
+    padding: 10px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+  }
